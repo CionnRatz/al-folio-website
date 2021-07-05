@@ -58,6 +58,10 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+<<<<<<< HEAD
+=======
+    font-size: 1.08rem;
+>>>>>>> commit again
     p {
       display: inline-block;
       margin: 0;
@@ -67,7 +71,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 33%;
     .address {
       p { display: block; }
     }
