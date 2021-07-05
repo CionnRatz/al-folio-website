@@ -2,15 +2,19 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Asst. Prof. in Fault Tolerant Control at <a href="http://www.dcsc.tudelft.nl" >Delft Center for Systems and Control</a>, Delft University of Technology 
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><i class="fas fa-envelope"></i> r . ferrari at tudelft . nl</p>
+    <p><i class="fas fa-phone-alt"></i> +31 (0)15 27 83519</p>
+    <p><i class="fas fa-building"></i> Mekelweg 2</p>
+    <p><i class="fas fa-building" style="visibility: hidden"></i> 2628 CD, Delft</p>
+    <p><i class="fas fa-building" style="visibility: hidden"></i> The Netherlands</p>
+
+# <p>Office Room 34-C-2-260 (building 34, tower C, second floor)</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
