@@ -17,6 +17,7 @@ profile:
 # <p>Office Room 34-C-2-260 (building 34, tower C, second floor)</p>
 
 news: true  # includes a list of news items
+more_info: true  # includes an extra description with pointers to other detailed pages, CV, etc.
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---

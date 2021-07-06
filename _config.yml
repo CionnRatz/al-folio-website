@@ -55,6 +55,7 @@ gitlab_username: # your GitLab user name
 twitter_username: CionnRatz # your Twitter handle
 linkedin_username: rferrari # your LinkedIn user name
 scholar_userid: LMKnHkgAAAAJ # your Google Scholar ID
+scopus_authorid: 23569456200 # your Scopus user ID
 orcid_id: 0000-0003-3615-5445 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -168,6 +169,8 @@ scholar:
   details_layout: bibtex.html
   details_link: Details
 
+  sort_by: sort-word
+  order: descending
   query: "@*"
 
 # -----------------------------------------------------------------------------
@@ -192,8 +195,8 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 # -----------------------------------------------------------------------------
 
 academicons:
-  version: "1.9.0"
-  integrity: "sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg=="
+  version: "1.9.1"
+  integrity: "sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg=="
 bootstrap:
   version: "4.5.2"
   integrity:
