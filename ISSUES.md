@@ -2,13 +2,13 @@
 
 ## Functional
 
-- [ ] figure out smart way to divide publications page in types, order by year, sort
+- [x] figure out smart way to divide publications page in types, order by year, sort
 - [ ] make the landing page and the about page different. I need the about for details, which are too much for the landing
 - [ ] complete bib files with following info
   - [ ] abbr field to have badge on the side
   - [ ] html field for linking to publisher
   - [ ] arXiv field if we have arXiv
-- [ ] add teaser images to bib entries?
+- [ ] add teaser images to bib entries, below or in place of the abbreviation tag?
 - [ ] add a data file venue.yml in _data to include links for journals and conferences
 - [ ] add teaser images to news items and posts
 
@@ -48,7 +48,6 @@
 - [ ] Decide (?? what did I mean here?)
 
 ### Other
-- [ ] Populate bibliography
 - [ ] Add a TUD logo and link somewhere
 
 ## Smaller bugs
