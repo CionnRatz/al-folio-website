@@ -3,9 +3,9 @@ layout: page
 title: research
 sorted_title: 02_research
 permalink: /research/
-description: A growing collection of your cool projects.
+description: My mission is to bring Safety and Resiliency to Dynamical Systems.
 nav: true
-display_categories: [work, fun]
+display_categories: [research topics, funded projects, available student projects]
 horizontal: false
 ---
 <div class="projects">

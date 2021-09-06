@@ -18,7 +18,7 @@ profile:
 
 news: true  # includes a list of news items
 more_info: true  # includes an extra description with pointers to other detailed pages, CV, etc.
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
@@ -36,7 +36,7 @@ I investigate how to make dynamical systems safe and resilient against faults, m
 
 
 
-I took an unusual career path: after a PhD in Information Engineering form the [University of Trieste](http://www.units.it/en){:target="\_blank"}, under the guidance of [Prof. Thomas Parisini](https://www.imperial.ac.uk/people/t.parisini) (Imperial College London and Univ. of Trieste) and of [Prof. Marios Polycarpou](https://www.kios.ucy.ac.cy/people/kios-faculty/7-marios-polycarpou.html) (Univ. of Cyprus)
+I took an unusual career path: after a PhD in Information Engineering from the [University of Trieste](http://www.units.it/en){:target="\_blank"}, under the guidance of [Prof. Thomas Parisini](https://www.imperial.ac.uk/people/t.parisini) (Imperial College London and Univ. of Trieste) and of [Prof. Marios Polycarpou](https://www.kios.ucy.ac.cy/people/kios-faculty/7-marios-polycarpou.html) (Univ. of Cyprus)
 , I spent 7 years in industrial R&D at [Danieli Automation](https://www.dca.it/en){:target="\_blank"}. There I specialized in instrumentation and automation solutions for process control in the steelmaking sector, at researcher and executive manager level. After that I joined DCSC as a Postdoc in the group of Prof. Robert Babuska, and later as an Asst. Prof. in the group of Prof. Jan-Willem van Wingerden.
 
 <!-- - Acknowledge support from funding -->
