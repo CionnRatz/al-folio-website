@@ -22,8 +22,6 @@ selected_papers: # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-TEST
-
 <!-- - Who I am -->
 
 I am a Marie Curie Alumnus and an Assistant Professor in Fault Tolerant Control in the Delft Center for Systems and Control, within the Faculty of Mechanical, Maritime, and Materials Engineering (3mE) at [Delft University of Technology](http://www.tudelft.nl/en){:target="\_blank"}, The Netherlands.

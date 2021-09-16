@@ -109,8 +109,8 @@ news_limit: 5
 
 # Markdown and syntax highlight
 markdown: kramdown
-# highlighter: rouge
-# highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+highlighter: rouge
+highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
