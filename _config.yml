@@ -15,7 +15,7 @@ footer_text: >
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-icon: 🔥 # the emoji used as the favicon
+# icon: 🔥 # the emoji used as the favicon
 url: http://www.dcsc.tudelft.nl/~riccardoferrar/ # the base hostname & protocol for your site
 baseurl: /~riccardoferrar/ # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
@@ -109,8 +109,8 @@ news_limit: 5
 
 # Markdown and syntax highlight
 markdown: kramdown
-highlighter: rouge
-highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+# highlighter: rouge
+# highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:

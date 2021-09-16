@@ -15,9 +15,37 @@ category: research topics
 
 * General motivation on making systems safe and reliable. Just making them work is not enough for critical systems such as
    - transportation (cars, trains, airplanes, ...)
-   - fundamental infrastructures such as power grid, road networks, communication netoworks, ...
+   - fundamental infrastructures such as power grid, road networks, communication networks, ...
    - industrial processes with high stored energy such as nuclear, chemical, steelmaking, etc ...
-* While avoiding catastrophic failures in one of the examples above is of paramount importance, on the long run also smaller faults and breakdowns should be minimized. Let us take, for example, the xx sector and look at its Operation&Maintenance cost, which is part of the so called Opex cost, that is the amount of money that must be spent on top of the Capex (the cost of actually making and installing it). Well, there the O&M can be up to yy % of the total (reference to the source). So, every cent that we can safe by better diagnosing the onset of faults and thus optimizing maintenance, is a cent that helps reducing the total cost of energy produced by a xx, thus making renewable energy even more sustainable (ref. to another source).
+   - autonomous robots (we are not supposed to send in a human or a second robot to repair the first one, ain't we?)
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/1_fault_diagnosis/airbus.jpg' | relative_url }}" alt="" title="Airbus airplane"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/1_fault_diagnosis/pernis.jpg' | relative_url }}" alt="" title="Pernis refinery"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/1_fault_diagnosis/Perseverance.jpg' | relative_url }}" alt="" title="Perseverance autonomous planetary rover on Mars"/>
+    </div>
+</div>
+<div class="caption">
+    Examples of systems where fault tolerance is a required property. On the left, an Airbus A321 jet liner. Middle, the Pernis refinery operated by Shell in Rotterdam. Right, the Perseverance autonomous planetary rover on Mars.
+</div>
+
+<!-- NOTE: find a better alignment, or choose a middle image with same height as the others, or fit a second row of images only in the left and right columns -->
+
+* While avoiding catastrophic failures in one of the examples above is of paramount importance, on the long run also smaller faults and breakdowns should be minimized. Let us take, for example, the xx sector and look at its Operation&Maintenance cost, which is part of the so called Opex cost, that is the amount of money that must be spent on top of the Capex (the cost of actually making and installing it). Well, there the O&M can be up to yy % of the total (reference to the source). So, every cent that we can save by better diagnosing the onset of faults and thus optimizing maintenance, is a cent that helps reducing the total cost of energy produced by a xx, thus making renewable energy even more sustainable (ref. to another source).
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded" src="{{ '/assets/img/projects/1_fault_diagnosis/fault_tolerance.png' | relative_url }}" alt="" title="Fault tolerance concept"/>
+    </div>
+</div>
+<div class="caption">
+    On the left, the path leading to a failure. On the right, the one leading to reliability and safety, even in the presence of faults.
+</div>
 
 ## State of the art
 
@@ -26,7 +54,7 @@ category: research topics
   * We use the model-based approach, it is more demanding on the user side (as we need knowledge about a model) but it gives nice theoretical guarantees. Anyway, signal-based approaches, which require just knowledge of how a healthy signal from a system looks like, are very popular in the industrial practice.
   * In the model based ... include figures here from my slide
   * The key point is generating a residual and a threshold. The residual describes the difference between the theoretical healthy behaviour, and the actual one measured via the sensors. The threshold is a way to decide when to classify the residual as healthy (or physiological as a MD would say), or faulty (pathological). The reason for requiring a threshold is that uncertainties in the model used, and noise in the sensors cause the residual to be non-zero also in healthy condition. The threshold quantify how much we know the effect of these non-idealities can be.
-  * And here comes the central problem in fault diagnosis. How to choose an optimal threshold? (footnote: interestingly, or worryingly enough, a lot of papers on fault diagnosis omit to explicitly define a threshold, leaving this choice to the user. Some other papers assume that a perfect residual can be generated that is sensitive only to faults and not to uncertainties, such that the threshold can be set to zero. These works make geometrical assumptions, basically faults and uncertainties are assumed to act in an orthogonal way with respect to each other, and can be applied to linear systems and some nonlinear one (cite De Persis). The question here is: how robust are these to the fact that our knowledge of the system model is itself uncertain, and that anyway system dynamics can change over time due to environmental and operating conditions, and normal wear?)
+  * And here comes the central problem in fault diagnosis. How to choose an optimal threshold? (note for self: talk about geometric methods first and in a nice way, then complain about non-rigorous papers) (footnote: interestingly, or worryingly enough, a lot of papers on fault diagnosis omit to explicitly define a threshold, leaving this choice to the user. Some other papers assume that a perfect residual can be generated that is sensitive only to faults and not to uncertainties, such that the threshold can be set to zero. These works make geometrical assumptions, basically faults and uncertainties are assumed to act in an orthogonal way with respect to each other, and can be applied to linear systems and some nonlinear one (cite De Persis). The question here is: how robust are these to the fact that our knowledge of the system model is itself uncertain, and that anyway system dynamics can change over time due to environmental and operating conditions, and normal wear?)
     * The way to answer this question, is to introduce two metrics that quantify how good a threshold is. The first one is the false positives (explain), the other is a false negative (explain)
     * possibly use images of cats and other stuff, with some possible correct and wrong answers.
     * First of all, no perfect threshold exists (if you wondered why Google as well cannot exactly classify correctly 100% of images containing cats or other flurry pets, this is the reason.) So we need to decide whether we can live with some false positives, some false negatives or a combination thereof. What is best anyway?
@@ -45,6 +73,8 @@ category: research topics
     * here we can have figures from the thresholds, our sausages, and formal definitions of probabilistic robust threshold, and the optimization problem we formulated
     * some plots with numerical results from ACC
   * Link to other probabilistic work in <a href=" {{ "projects/research_topics/5_active_inference" | relative_url }}">active inference</a>
+ * [back to top](#motivation)
+
 
 ## Open problems
 
@@ -55,6 +85,6 @@ category: research topics
   * b
   * c
 * We need some general method that scales well (i.e. not exponentially) and can be implemented numerically in an efficient way.
-
+ * [back to top](#motivation)
 
 I need to write something here.
