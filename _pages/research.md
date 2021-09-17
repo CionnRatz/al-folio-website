@@ -8,6 +8,13 @@ nav: true
 display_categories: [research topics, funded projects, available student projects]
 horizontal: false
 ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded" src="{{ '/assets/img/projects/research_topics_word_cloud.jpg' | relative_url }}" alt="" title="Research topics"/>
+    </div>
+</div>
+
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -55,4 +62,15 @@ horizontal: false
 
   {% endif %}
 
+</div>
+
+<div class="projects">
+      <h2 class="category">some pictures from our lab</h2>
+
+  <p class="post-content">Please check our <a href=" {{ "media" | relative_url }}">media page</a> to see some more photos and videos.</p>
+  <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded" src="{{ '/assets/img/projects/research_lab.jpg' | relative_url }}" alt="" title="Research in our lab"/>
+    </div>
+  </div>
 </div>

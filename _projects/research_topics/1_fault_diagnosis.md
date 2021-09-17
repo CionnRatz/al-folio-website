@@ -9,7 +9,7 @@ category: research topics
 
 <u>Joint work with</u>: xx, yy, zz.
 
-<u>Summary</u>: one/two sentences. Link to [why this is important](#top) and what is the [state of the art](#state-of-the-art) of the research on it, [how we are contributing](#our-contribution) to the problem and what [challenges we are looking to](#open-problems) for the future.
+<u>Summary</u>: one/two sentences. Link to [why this is important](#motivation) and what is the [state of the art](#state-of-the-art) of the research on it, [how we are contributing](#our-contribution) to the problem and what [challenges we are looking to](#open-problems) for the future.
 
 ## Motivation
 
