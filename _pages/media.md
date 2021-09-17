@@ -3,7 +3,7 @@ layout: page
 title: media
 sorted_title: 05_media
 permalink: /media/
-description: A growing collection of your cool projects.
+description: Pictures and videos from the lab, conferences and from outreach events.
 nav: true
 display_categories: [work, fun]
 horizontal: false
