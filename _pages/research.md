@@ -5,7 +5,7 @@ sorted_title: 02_research
 permalink: /research/
 description: My mission is to bring Safety and Resiliency to Dynamical Systems.
 nav: true
-display_categories: [research topics, funded projects, available student projects]
+display_categories: [research topics, funded projects, past projects, available student projects]
 horizontal: false
 ---
 

@@ -28,7 +28,7 @@ I am a Marie Curie Alumnus and an Assistant Professor in Fault Tolerant Control 
 
 <!-- - what I do -->
 
-I investigate how to make dynamical systems safe and resilient against faults, malicious cyber-attacks and degradation phenomena, fighting uncertainty while doing so. My research is applied to problems in wind energy and the automotive sector, in particular for electric and for cooperative automous vehicles.
+I investigate how to make dynamical systems safe and resilient against faults, malicious cyber-attacks and degradation phenomena, fighting uncertainty while doing so. My research is applied to problems in wind energy, in the aerospace and in the automotive sectors, in particular for electric and for cooperative automous vehicles.
 
 
 <!-- - How I got here and with whom I worked -->
