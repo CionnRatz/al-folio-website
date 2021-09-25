@@ -13,6 +13,6 @@ category: PhDs
 
 <u>Topics</u>: Lithium-Ion battery modelling for automotive application, degradation phenomena modelling, parameter estimation, digital twins.
 
-<u>Projects</u>: SPARSITY.
+<u>Projects</u>: <a href=" {{ "projects/funded_projects/6_SPARSITY" | relative_url }}">SPARSITY</a>.
 
 <!-- NOTE: add projects to everybody, with links to their page -->

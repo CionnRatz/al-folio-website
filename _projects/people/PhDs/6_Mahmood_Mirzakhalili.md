@@ -11,8 +11,8 @@ category: PhDs
 
 <u>Period</u>: June. 2021 - May. 2025 (estimated).
 
-<u>Topics</u>: system identification with sparse data, uncertainty quantification and propagation, digital twins.
+<u>Topics</u>: system identification with sparse data, uncertainty quantification and propagation, automotive applications, digital twins.
 
-<u>Projects</u>: SPARSITY.
+<u>Projects</u>: <a href=" {{ "projects/funded_projects/6_SPARSITY" | relative_url }}">SPARSITY</a>.
 
 <!-- NOTE: add projects to everybody, with links to their page -->

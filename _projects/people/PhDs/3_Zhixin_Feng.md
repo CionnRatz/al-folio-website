@@ -13,6 +13,6 @@ category: PhDs
 
 <u>Topics</u>: wind turbine control, load reduction, Economic MPC, weather forecast modelling for wind turbine control.
 
-<u>Projects</u>: WATEREYE.
+<u>Projects</u>: <a href=" {{ "projects/funded_projects/4_WATEREYE" | relative_url }}">WATEREYE</a>.
 
 <!-- NOTE: add projects to everybody, with links to their page -->

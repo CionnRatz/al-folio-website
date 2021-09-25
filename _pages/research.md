@@ -15,10 +15,16 @@ horizontal: false
     </div>
 </div>
 
+<p>
+<div>
+On this page you can read about my <a href="#research topics">research topics</a>, my <a href="#funded projects">funded projects</a>, my <a href="#past projects">past projects</a> and <a href="#available student projects">available student projects</a>.
+</div>
+
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
     {% for category in page.display_categories %}
+      <section id="{{category}}">
       <h2 class="category">{{category}}</h2>
       {% assign categorized_projects = site.projects | where: "category", category %}
       {% assign sorted_projects = categorized_projects | sort: "importance" %}
@@ -38,6 +44,7 @@ horizontal: false
           {% endfor %}
         </div>
       {% endif %}
+      </section>
     {% endfor %}
 
   {% else %}

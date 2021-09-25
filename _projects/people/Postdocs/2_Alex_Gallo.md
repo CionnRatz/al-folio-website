@@ -13,6 +13,6 @@ category: Postdocs
 
 <u>Topics</u>: cyber attack detection, watermarking, secure control, residual life extension for wind turbines.
 
-<u>Projects</u>: AIMWIND.
+<u>Projects</u>: <a href=" {{ "projects/funded_projects/5_AIMWIND" | relative_url }}">AIMWIND</a>.
 
 <!-- NOTE: add projects to everybody, with links to their page -->

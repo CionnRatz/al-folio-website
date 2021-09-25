@@ -3,7 +3,7 @@ layout: page
 title: SPARSITY
 description: project funded by Volvo AB and NWO (mixed private-public)
 img: /assets/img/projects/truck_Volvo.png
-importance: -5
+importance: -6
 category: funded projects
 ---
 

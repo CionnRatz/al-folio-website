@@ -13,6 +13,6 @@ category: Postdocs
 
 <u>Topics</u>: fault diagnosis and fault tolerant control for wind turbines, effective wind speed estimation.
 
-<u>Projects</u>: EDOWE.
+<u>Projects</u>: <a href=" {{ "projects/past_projects/3_EDOWE" | relative_url }}">EDOWE</a>.
 
 <!-- NOTE: add projects to everybody, with links to their page -->
