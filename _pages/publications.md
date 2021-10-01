@@ -30,7 +30,7 @@ nav: true
 <h2>journals</h2>
 {% for y in page.years.journals %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f RiccardoMGFerrari_journals_20210528.bib -q @*[year={{y}}]* %}
+  {% bibliography -f RiccardoMGFerrari_journals_20210528 -q @*[year={{y}}]* %}
 {% endfor %}
 </section>
 </div>

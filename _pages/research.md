@@ -15,6 +15,8 @@ horizontal: false
     </div>
 </div>
 
+<!-- NOTE: add caption of image, possibly give credits. -->
+
 <p>
 <div>
 On this page you can read about my <a href="#research topics">research topics</a>, my <a href="#funded projects">funded projects</a>, my <a href="#past projects">past projects</a> and <a href="#available student projects">available student projects</a>.
