@@ -2,7 +2,7 @@
 layout: page
 title: Automotive
 description: electric and autonomous vehicles
-img:
+img: /assets/img/projects/truck_Volvo.png
 importance: 3
 category: research topics
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Active Inference
 description: making robotic manipulators adapt autonomously to faults
-img:
+img: /assets/img/projects/active_inference.jpg
 importance: 5
 category: research topics
 ---

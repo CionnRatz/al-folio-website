@@ -2,7 +2,7 @@
 layout: page
 title: Cyber Physical Systems
 description: safety, security and privacy
-img:
+img: /assets/img/projects/2_safety_security_privacy_CPS/platooning_cars.jpg
 importance: 2
 category: research topics
 ---

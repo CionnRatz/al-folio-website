@@ -2,7 +2,7 @@
 layout: page
 title: Wind Energy
 description: reducing the cost of renewables by advanced control
-img:
+img: /assets/img/projects/offshore_turbine_small.jpg
 importance: 4
 category: research topics
 ---
