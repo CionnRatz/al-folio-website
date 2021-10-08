@@ -3,13 +3,47 @@ layout: page
 title: fault diagnosis
 description: from deterministic to probabilistic
 img: /assets/img/projects/1_fault_diagnosis/failing_wind_turbine.jpg
+head_banner: /assets/img/projects/1_fault_diagnosis/failing_wind_turbine.jpg
 importance: 1
 category: research topics
 ---
 
-<u>Joint work with</u>: xx, yy, zz.
+<!-- <span class="project--description">Summary</span>: one/two sentences. Link to [why this is important](#motivation) and what is the [state of the art](#state-of-the-art) of the research on it, [how we are contributing](#our-contribution) to the problem and what [challenges we are looking to](#open-problems) for the future.
 
-<u>Summary</u>: one/two sentences. Link to [why this is important](#motivation) and what is the [state of the art](#state-of-the-art) of the research on it, [how we are contributing](#our-contribution) to the problem and what [challenges we are looking to](#open-problems) for the future.
+<span class="project--description">Motivation</span>: xx, yy, zz.  -->
+
+<span class="project--description">Summary</span>: Critical infrastructures such as power grids, communication and energy networks; potentially dangerous industrial processes such as nuclear or chemical plants; transportation systems and autonomous robots. These are examples of systems for which safety and resiliency should be an integral part of their design. The occurrence of faults in these cases can lead to unacceptable losses, or simply make their operation uneconomical. For instance, in the offshore wind energy sector Operation&Maintenance cost can already reach up to 30% of the total lifetime cost {% cite may2015economic --file papers %}.
+Detecting and accommodating faults before they lead to consequences is thus a key requirement.
+
+model based techniques blah blah, for simple cases where effects from faults are separable from uncertainties, blah blah, but real interesting cases are systems that are very large and complex, with nonlinear and uncertain dynamics. Good fault diagnosis is the basis of fault tolerant approaches which can use diagnostic results to reconfigure the system blah blah.
+
+We contributed to distributed FDI. Then we focused on the central problem of getting better thresholds, which can lead to better FAR and MDR. THe key to reaching this is moving from a deterministic to a probabilistic approach. WE used sceneario approach to derive set-based thresholds with user-desired probabilistic robustness
+{% cite Rostampour_2017aa --file my_papers%}, {% cite Rostampour_2018aa --file my_papers%}, {% cite Rostampour_2020ab --file my_papers%}.
+We considered applications in <a href=" {{ "projects/research_topics/4_wind_energy" | relative_url }}">wind energy</a>, <a href=" {{ "projects/research_topics/2_safety_security_privacy_CPS" | relative_url }}">cyber-physical systems</a>
+<a href=" {{ "projects/research_topics/3_automotive" | relative_url }}">automotive</a> and aerospace (paper with Airbus?), and <a href=" {{ "projects/research_topics/5_active_inference" | relative_url }}">robotics</a>.
+
+
+
+<span class="project--description">Joint work with (mostly)</span>: Thomas Parisini, Marios M. Polycarpou, Francesca Boem, Vahab Rostampour, Yichao Liu.
+
+
+
+
+{% cite Ferrari_2012aa --file my_papers%}
+
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[keywords ~= fault] %}
+</div>
+
+## Additional References
+
+<div class="publications">
+    {% bibliography -f papers --cited_in_order %}
+</div>
+
+<!-- {% bibliography -f papers -q @*[keywords^={"fault"}]* %} -->
 
 ## Motivation
 

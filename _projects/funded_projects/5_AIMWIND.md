@@ -15,7 +15,7 @@ category: funded projects
         <p><u>Period:</u> 2021 - 23</p>
         <p><u>Budget:</u> 1.55 MEur (of which 328 kEur to TUD)</p>
         <p><u>Role:</u> Co-PI</p>
-        <p><u>Funding source:</u> Research Council of Norway, grant id 312486</p>
+        <p><u>Funding source:</u> Research Council of Norway, grant id <a href="https://prosjektbanken.forskningsradet.no/en/project/FORISS/312486" target="_blank">312486</a></p>
         <p><u>Partners:</u> Univ. of Agder (NO, coordinator), NORCE (NO), TU Delft (NL), DNV (NO, as advisor)</p>
     </div>
     <div class="col-sm-3">

@@ -1,0 +1,38 @@
+
+
+// Counters for figures
+
+body {
+    counter-reset: figure;
+  }
+
+// Addition by Riccardo (h2 was too large and too similar to h1)
+h2 {
+    font-size: 1.75rem;
+  }
+
+p {
+    text-align: justify;
+}
+
+.caption {
+    &--figure {
+      @extend .caption;
+    }
+}
+  
+.caption--figure::before {
+    counter-increment: figure;
+    content: "Figure " counter(figure) ": ";
+    font-weight: bold;
+}
+
+
+blockquote {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.project--description {
+    text-decoration: underline;
+}

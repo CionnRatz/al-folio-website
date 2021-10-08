@@ -89,8 +89,8 @@
     {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     {% endif %}
-    {% if entry.html %}
-      <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
     {% endif %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
@@ -128,6 +128,15 @@
     {% endif %}
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+    {% endif %}
+    {% if entry.url %}
+    <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+  {% endif %}
+    {% if entry.video %}
+      <a href="{{ entry.video}}" class="btn btn-sm z-depth-0" role="button" target="_blank">video</a>
+    {% endif %}
+    {% if entry.OpenAccess %}
+      <a href="{{ entry.OpenAccess }}" class="btn btn-sm z-depth-0" role="button" target="_blank">OpenAccess</a>
     {% endif %}
     </div>
 
