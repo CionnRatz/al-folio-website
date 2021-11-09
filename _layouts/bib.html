@@ -72,6 +72,12 @@
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
+      {% elsif entry.type == "techreport" %}
+        <em>{{entry.institution}}</em>
+      {% elsif entry.type == "book" %}
+        {{entry.publisher}}
+      {% elsif entry.type == "incollection" %}
+        <em>In {{entry.booktitle}}, </em> {{entry.publisher}} 
       {% endif %}
       {% if entry.year %}
         {{entry.year}}
