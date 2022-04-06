@@ -8,7 +8,7 @@ middle_name: M.G.
 last_name: Ferrari
 email: r.ferrari@tudelft.nl
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Assistant Professor at TU Delft Center For Systems and Control. Safety and Resiliency of Dynamical Systems. Wind Energy, Automotive. | Piano player
+  Tenured Assistant Professor at TU Delft Center For Systems and Control. Safety and Resiliency of Dynamical Systems. Wind Energy, Automotive. | Piano player
 #  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.

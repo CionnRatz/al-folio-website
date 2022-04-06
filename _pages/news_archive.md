@@ -1,10 +1,17 @@
+---
+layout: page
+permalink: /news/
+title: news
+description: Archive of all news items 
+nav: true
+---
+
 <div class="news">
-  <h2>news</h2>
   {% if site.news  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign news = site.news | reverse %}
-      {% for item in news limit: site.news_limit %}
+      {% for item in news%}
         <tr>
           <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
           <td>
@@ -18,7 +25,6 @@
       {% endfor %}
       </table>
     </div>
-    <p> news <a href="{{ "/news/" | relative_url }}">archive</a></p>
   {% else %}
     <p>No news so far...</p>
   {% endif %}

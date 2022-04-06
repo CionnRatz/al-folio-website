@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-description: Asst. Prof. in Fault Tolerant Control in the <a href="http://www.dcsc.tudelft.nl" >Delft Center for Systems and Control</a>, at Delft University of Technology 
+description: Tenured Asst. Prof. in Fault Tolerant Control in the <a href="http://www.dcsc.tudelft.nl" >Delft Center for Systems and Control</a>, at Delft University of Technology 
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p><i class="fas fa-envelope"></i> r dot ferrari at tudelft dotMy team and  nl</p>
+    <p><i class="fas fa-envelope"></i> r dot ferrari at tudelft dot nl</p>
     <p><i class="fas fa-phone-alt"></i> +31 (0)15 27 83519</p>
     <p><i class="fas fa-building"></i> Mekelweg 2</p>
     <p><i class="fas fa-building" style="visibility: hidden"></i> 2628 CD, Delft</p>
@@ -24,7 +24,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- - Who I am -->
 
-I am a Marie Curie Alumnus and an Assistant Professor in Fault Tolerant Control in the Delft Center for Systems and Control, within the Faculty of Mechanical, Maritime, and Materials Engineering (3mE) at [Delft University of Technology](http://www.tudelft.nl/en){:target="\_blank"}, The Netherlands.
+I am a Marie Curie Alumnus and a Tenured Assistant Professor in Fault Tolerant Control in the Delft Center for Systems and Control, within the Faculty of Mechanical, Maritime, and Materials Engineering (3mE) at [Delft University of Technology](http://www.tudelft.nl/en){:target="\_blank"}, The Netherlands.
 
 <!-- - what I do -->
 
