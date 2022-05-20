@@ -3,13 +3,13 @@ layout: page
 title: Mahmoodreza Mirzakhalili
 description: PhD student on electro mobility
 img: /assets/img/people/Mahmood.jpg
-importance: 6
-category: PhDs
+importance: 3
+category: former PhDs
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
 
-<u>Period</u>: June. 2021 - May. 2025 (estimated).
+<u>Period</u>: June 2021 - Feb. 2022.
 
 <u>Topics</u>: system identification with sparse data, uncertainty quantification and propagation, automotive applications, digital twins.
 
