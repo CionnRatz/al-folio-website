@@ -4,7 +4,7 @@ title: Mahmoodreza Mirzakhalili
 description: PhD student on electro mobility
 img: /assets/img/people/Mahmood.jpg
 importance: 3
-category: former PhDs
+category: former
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->

@@ -5,7 +5,7 @@ sorted_title: 03_people
 permalink: /people/
 description: The greatest asset in our lab.
 nav: true
-display_categories: [PhDs, Postdocs, collaborators, former PhDs]
+display_categories: [PhDs, Postdocs, collaborators, former]
 horizontal: false
 ---
 

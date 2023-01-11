@@ -4,7 +4,7 @@ title: Francesca Boem
 description: PhD student on cyber attack detection
 img: /assets/img/people/Boem.png
 importance: 1
-category: former PhDs
+category: former
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->

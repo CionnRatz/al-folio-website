@@ -4,7 +4,7 @@ title: Joeri Frederick
 description: PhD student on wind turbine control
 img: /assets/img/people/Joeri.jpg
 importance: 2
-category: former PhDs
+category: former
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
