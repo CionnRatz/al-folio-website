@@ -5,22 +5,72 @@ sorted_title: 05_media
 permalink: /media/
 description: Pictures and videos from the lab, conferences and from outreach events.
 nav: true
-display_categories: [work, fun]
+display_categories: [talks, lab, team and funnies]
 horizontal: false
 ---
 
-## Talks
-
-The following are talks mainly from my co-authors, sometimes from me.
-
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLw-O00K-tto9YIvTfi3p-EGmb8zDPWgIN" title="Talks from Riccardo.M.G. and co-authors" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded" src="{{ '/assets/img/projects/research_topics_word_cloud.jpg' | relative_url }}" alt="" title="Research topics"/>
+    </div>
 </div>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLw-O00K-tto9YIvTfi3p-EGmb8zDPWgIN" title="Talks from Riccardo.M.G. and co-authors" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<!-- NOTE: add caption of image, possibly give credits. -->
 
+<p>
+<div>
+On this page you can read about my <a href="#research topics">research topics</a>, my <a href="#funded projects">funded projects</a>, my <a href="#past projects">past projects</a> and <a href="#available student projects">available student projects</a>.
+</div>
 
+<div class="projects">
+  {% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+    {% for category in page.display_categories %}
+      <section id="{{category}}">
+      <h2 class="category">{{category}}</h2>
+      {% assign categorized_projects = site.projects | where: "category", category %}
+      {% assign sorted_projects = categorized_projects | sort: "importance" %}
+      <!-- Generate cards for each project -->
+      {% if page.horizontal %}
+        <div class="container">
+          <div class="row row-cols-2">
+          {% for project in sorted_projects %}
+            {% include projects_horizontal.html %}
+          {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <div class="grid">
+          {% for project in sorted_projects %}
+            {% include projects.html %}
+          {% endfor %}
+        </div>
+      {% endif %}
+      </section>
+    {% endfor %}
 
-> WORK IN PROGRESS - CHECK BACK SOON!
+  {% else %}
+  <!-- Display projects without categories -->
+    {% assign sorted_projects = site.projects | sort: "importance" %}
+    <!-- Generate cards for each project -->
+    {% if page.horizontal %}
+      <div class="container">
+        <div class="row row-cols-2">
+        {% for project in sorted_projects %}
+          {% include projects_horizontal.html %}
+        {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <div class="grid">
+        {% for project in sorted_projects %}
+          {% include projects.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+  {% endif %}
+
+</div>
 
 

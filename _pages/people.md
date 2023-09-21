@@ -11,7 +11,7 @@ horizontal: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded" src="{{ '/assets/img/people/research_group.jpg' | relative_url }}" alt="" title="Research group"/>
+        <img class="img-fluid rounded" src="{{ '/assets/img/people/research_group_2023.jpg' | relative_url }}" alt="" title="Research group"/>
     </div>
 </div>
 

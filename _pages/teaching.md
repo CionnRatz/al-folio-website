@@ -10,6 +10,12 @@ nav: false
 
 Organize your courses by years, topics, or universities, however you like! -->
 
+### Academic year 2023-24 at TUD
+
+* SC42155, Modelling of Dynamical Systems ([studyguide](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=64304))
+* SC42130, Fault DIagnosis and Fault Tolerant Control ([studyguide](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=64308))
+
+
 ### SAFEPROCESS Workshop on "_Safety, Security and Privacy for Cyber Physical Systems_”
 
 <!-- <div>

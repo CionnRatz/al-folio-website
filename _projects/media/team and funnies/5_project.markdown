@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 1
+title: project 5
 description: a project with a background image
-img: /assets/img/12.jpg
-importance: 1
+img: /assets/img/1.jpg
+importance: 3
 category: test
 ---
 

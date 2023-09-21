@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Tenured Asst. Prof. in Fault Tolerant Control in the <a href="http://www.dcsc.tudelft.nl" >Delft Center for Systems and Control</a>, at Delft University of Technology 
+description: Associate Professor in Fault Tolerant Control in the <a href="http://www.dcsc.tudelft.nl" >Delft Center for Systems and Control</a>, at Delft University of Technology 
 
 profile:
   align: right
@@ -28,7 +28,7 @@ I am a Marie Curie Alumnus and a Tenured Assistant Professor in Fault Tolerant C
 
 <!-- - what I do -->
 
-I investigate how to make dynamical systems safe and resilient against faults, malicious cyber-attacks and degradation phenomena, fighting uncertainty while doing so. My research is applied to problems in wind energy, in the aerospace and in the automotive sectors, in particular for electric and for cooperative automous vehicles.
+**I investigate how to make dynamical systems safe and resilient** against faults, malicious cyber-attacks and degradation phenomena, fighting uncertainty while doing so. My research is applied to problems in wind energy, in the aerospace and in the automotive sectors, in particular for electric and for cooperative automous vehicles.
 
 
 <!-- - How I got here and with whom I worked -->
