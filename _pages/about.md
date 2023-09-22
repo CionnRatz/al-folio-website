@@ -24,23 +24,25 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- - Who I am -->
 
-I am a Marie Curie Alumnus and a Tenured Assistant Professor in Fault Tolerant Control in the Delft Center for Systems and Control, within the Faculty of Mechanical, Maritime, and Materials Engineering (3mE) at [Delft University of Technology](http://www.tudelft.nl/en){:target="\_blank"}, The Netherlands.
+<!-- I am a Marie Curie Alumnus and a Tenured Assistant Professor in Fault Tolerant Control in the Delft Center for Systems and Control, within the Faculty of Mechanical, Maritime, and Materials Engineering (3mE) at [Delft University of Technology](http://www.tudelft.nl/en){:target="\_blank"}, The Netherlands. -->
 
 <!-- - what I do -->
 
-**I investigate how to make dynamical systems safe and resilient** against faults, malicious cyber-attacks and degradation phenomena, fighting uncertainty while doing so. My research is applied to problems in wind energy, in the aerospace and in the automotive sectors, in particular for electric and for cooperative automous vehicles.
+Hi, my name is Riccardo, and **I investigate how to make dynamical systems safe and resilient** against faults, malicious cyber-attacks and degradation phenomena, fighting uncertainty while doing so. My research is applied to problems in wind energy, in the aerospace and in the automotive sectors, in particular for electric and for cooperative automous vehicles.
 
 
 <!-- - How I got here and with whom I worked -->
 
-
+<!-- TODO: instead of this, that could better go in the CV page, I can talk about how we solve the problems and what are the challenges -->
 
 I took an unusual career path: after a PhD in Information Engineering from the [University of Trieste](http://www.units.it/en){:target="\_blank"}, under the guidance of [Prof. Thomas Parisini](https://www.imperial.ac.uk/people/t.parisini) (Imperial College London and Univ. of Trieste) and of [Prof. Marios Polycarpou](https://www.kios.ucy.ac.cy/people/kios-faculty/7-marios-polycarpou.html) (Univ. of Cyprus)
 , I spent 7 years in industrial R&D at [Danieli Automation](https://www.dca.it/en){:target="\_blank"}. There I specialized in instrumentation and automation solutions for process control in the steelmaking sector, at researcher and executive manager level. After that I joined DCSC as a Postdoc in the group of Prof. Robert Babuska, and later as an Asst. Prof. in the group of Prof. Jan-Willem van Wingerden.
 
 <!-- - Acknowledge support from funding -->
 
-I acknowledge funding from the EU via the [H2020](https://ec.europa.eu/programmes/horizon2020/) program ([Marie Sklowdowska-Curie Actions](https://ec.europa.eu/research/mariecurieactions) and [Secure, clean and efficient energy](https://ec.europa.eu/research/participants/data/ref/h2020/wp/2018-2020/main/h2020-wp1820-energy_en.pdf) work programme), from [AB Volvo](http://www.volvogroup.com), from NWO ([TKI-HTSM](https://www.nwo.nl/en/researchprogrammes/high-tech-systemen-en-materialen-htsm)), from [Vestas Wind Systems A/S](https://www.vestas.com), from [The Research Council of Norway](https://www.forskningsradet.no/en/) and from TU Delft (Cohesie program).
+I acknowledge funding from the EU via the [H2020](https://ec.europa.eu/programmes/horizon2020/) program ([Marie Sklowdowska-Curie Actions](https://ec.europa.eu/research/mariecurieactions) and [Secure, clean and efficient energy](https://ec.europa.eu/research/participants/data/ref/h2020/wp/2018-2020/main/h2020-wp1820-energy_en.pdf) work programme) and the [Horizon Europe](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en); from [AB Volvo](http://www.volvogroup.com); from NWO ([TKI-HTSM](https://www.nwo.nl/en/researchprogrammes/high-tech-systemen-en-materialen-htsm)); from [Vestas Wind Systems A/S](https://www.vestas.com); from [The Research Council of Norway](https://www.forskningsradet.no/en/) and from TU Delft (Cohesie program).
+
+<!-- TODO: make the paragraph above a bulleted list? -->
 
 <!-- You can read a CV of mine ** add PDF and link **, as well as some more information about my hobbies ** add page and link **. -->
 

@@ -11,7 +11,7 @@ horizontal: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded" src="{{ '/assets/img/projects/research_topics_word_cloud.jpg' | relative_url }}" alt="" title="Research topics"/>
+        <img class="img-fluid rounded" src="{{ 'assets/img/media_banner.jpg' | relative_url }}" alt="" title="Media"/>
     </div>
 </div>
 
@@ -19,7 +19,7 @@ horizontal: false
 
 <p>
 <div>
-On this page you can read about my <a href="#research topics">research topics</a>, my <a href="#funded projects">funded projects</a>, my <a href="#past projects">past projects</a> and <a href="#available student projects">available student projects</a>.
+On this page you can access recordings of our <a href="#talks">talks</a>, pictures and videos from our <a href="#lab">lab</a> and finally some pictures about our <a href="#team and funnies">team and funny things</a> we did.
 </div>
 
 <div class="projects">
