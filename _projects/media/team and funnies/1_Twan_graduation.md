@@ -4,7 +4,7 @@ title: Twan's graduation
 description: My first PhD student graduated at TUD
 img: /assets/img/albums/Twan_graduation/7.jpg
 importance: 1
-category: team and funnies
+category: team
 ---
 
 PhDs graduation ceremonies at TU Delft are elaborate and suggestive. Both the candidate and the supervisor (as well as all the other members from the graduation committee) have to dress *properly*.

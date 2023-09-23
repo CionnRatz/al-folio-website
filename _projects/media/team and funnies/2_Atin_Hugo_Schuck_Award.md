@@ -4,7 +4,7 @@ title: Hugo Schuck Award
 description: Our PhD student Atindriyo Pamososuryo received the prestigious prize from the AACC
 img: /assets/img/albums/Hugo_Schuck_Award/4.jpeg
 importance: 1
-category: team and funnies
+category: team
 ---
 
 Our PhD student Atindriyo Pamososuryo, cosupervised with J.W. van Wingerden, received the prestigious O. Hugo Schuck prize from the American Automatic Control Council! The prize is assigned to the best theoretical and, respectively, application paper from previous American Control Conference.

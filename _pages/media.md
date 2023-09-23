@@ -5,7 +5,7 @@ sorted_title: 05_media
 permalink: /media/
 description: Pictures and videos from the lab, conferences and from outreach events.
 nav: true
-display_categories: [talks, lab, team and funnies]
+display_categories: [talks, lab, team]
 horizontal: false
 ---
 
@@ -19,7 +19,7 @@ horizontal: false
 
 <p>
 <div>
-On this page you can access recordings of our <a href="#talks">talks</a>, pictures and videos from our <a href="#lab">lab</a> and finally some pictures about our <a href="#team and funnies">team and funny things</a> we did.
+On this page you can access recordings of our <a href="#talks">talks</a>, pictures and videos from our <a href="#lab">lab</a> and finally some pictures about our <a href="#team">team and funny things</a> we did.
 </div>
 
 <div class="projects">
