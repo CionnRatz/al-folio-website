@@ -19,7 +19,7 @@ As part of the project <a href=" {{ "projects/funded_projects/6_SPARSITY" | rela
 ## Publications
 
 <div class="publications">
-    {% bibliography -f my_papers -q @*[keywords ~= vehicles] %}
+    {% bibliography -f my_papers -q @*[keywords ~= vehicles || keywords ~= automotive] %}
 </div>
 
 ## Additional References
