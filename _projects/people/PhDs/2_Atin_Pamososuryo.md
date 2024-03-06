@@ -15,7 +15,7 @@ category: PhDs
         <br>
         <u>Topics</u>: wind turbine control, load reduction, Economic MPC.
         <br>
-        <u>Projects</u>: Collaboration with [Vestas Wind Systems A/S](https://www.vestas.com).
+        <u>Projects</u>: Collaboration with <a href="https://www.vestas.com">Vestas Wind Systems A/S</a> .
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/people/Atin.jpg' | relative_url }}" alt="" title="example image"/>
@@ -29,3 +29,11 @@ category: PhDs
 
 
 <!-- NOTE: add projects to everybody, with links to their page -->
+
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[author ~= Pamososuryo] %}
+</div>
+
+<!-- Find out how to search for complete author name, not just surname -->

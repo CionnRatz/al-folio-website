@@ -4,7 +4,7 @@ title: WATEREYE
 description: H2020 project
 img: /assets/img/projects/offshore_turbine_small.jpg
 importance: -4
-category: funded projects
+category: past projects
 ---
 
 

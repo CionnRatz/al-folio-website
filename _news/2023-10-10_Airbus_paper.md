@@ -13,7 +13,7 @@ Making an #aircraft lighter is one way towards #sustainable #aviation. But what 
 
 
 
-The algorithm behind "[A sliding mode observer approach to oscillatory fault detection in commercial aircraft](https://doi.org/10.1016/j.conengprac.2023.105719)" was awarded first prize in the [Aerospace Industrial Benchmark contest organised by Airbus at IFAC 2020](https://research.tudelft.nl/en/prizes/first-prize-at-the-aerospace-industrial-benchmark-on-fault-detect)
+The algorithm behind "[A sliding mode observer approach to oscillatory fault detection in commercial aircraft](https://doi.org/10.1016/j.conengprac.2023.105719)" was **awarded first prize** in the [Aerospace Industrial Benchmark contest organised by Airbus at IFAC 2020](https://research.tudelft.nl/en/prizes/first-prize-at-the-aerospace-industrial-benchmark-on-fault-detect)
 
 
 <div>

@@ -2,7 +2,7 @@
 layout: page
 title: SURE
 description: Marie Curie individual fellowship
-img: /assets/img/projects/Google_car_small.png
+img: /assets/img/projects/2_safety_security_privacy_CPS/platooning_cars.jpg
 importance: -1
 category: past projects
 ---

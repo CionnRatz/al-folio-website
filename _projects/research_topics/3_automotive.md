@@ -14,7 +14,7 @@ We provided a first set of theoretical contributions to such pressing challenge,
 As part of the project <a href=" {{ "projects/funded_projects/6_SPARSITY" | relative_url }}">SPARSITY</a>, in collaboration with AB Volvo, we are now investigating how to extend system identification and leverage physics-informed Machine Learning to obtain mathematical models of key electric drive train components. Such models will be instrumental in optimizing the life cycle of those components and implement circular economy solutions.
 
 
-<span class="project--description">Joint work with (mostly)</span>: Twan Keijzer, Tushar Desai, Mahmood Mirzakhalili, Paula Chanfreut, José M. Maestre, Fabian Jarmolowitz, Kausihan Selvam.
+<span class="project--description">Joint work with (mostly)</span>: Twan Keijzer, Tushar Desai, Yang Wang, Paula Chanfreut, José M. Maestre, Fabian Jarmolowitz, Kausihan Selvam.
 
 ## Publications
 

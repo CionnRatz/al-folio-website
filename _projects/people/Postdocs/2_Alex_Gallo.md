@@ -23,3 +23,11 @@ category: Postdocs
 </div>
 
 <!-- NOTE: add projects to everybody, with links to their page -->
+
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[author ~= Gallo] %}
+</div>
+
+<!-- Find out how to search for complete author name, not just surname -->
