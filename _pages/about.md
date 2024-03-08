@@ -40,7 +40,7 @@ I took an unusual career path: after a PhD in Information Engineering from the [
 
 <!-- - Acknowledge support from funding -->
 
-I acknowledge funding from the EU via the [H2020](https://ec.europa.eu/programmes/horizon2020/) program ([Marie Sklowdowska-Curie Actions](https://ec.europa.eu/research/mariecurieactions) and [Secure, clean and efficient energy](https://ec.europa.eu/research/participants/data/ref/h2020/wp/2018-2020/main/h2020-wp1820-energy_en.pdf) work programme) and the [Horizon Europe](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en); from [AB Volvo](http://www.volvogroup.com); from NWO ([TKI-HTSM](https://www.nwo.nl/en/researchprogrammes/high-tech-systemen-en-materialen-htsm)); from [Vestas Wind Systems A/S](https://www.vestas.com); from [The Research Council of Norway](https://www.forskningsradet.no/en/) and from TU Delft (Cohesie program).
+I acknowledge funding from the EU via the [H2020](https://ec.europa.eu/programmes/horizon2020/) and [Horizon Europe](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en) programs; from [AB Volvo](http://www.volvogroup.com); from NWO ([TKI-HTSM](https://www.nwo.nl/en/researchprogrammes/high-tech-systemen-en-materialen-htsm)); from [The Research Council of Norway](https://www.forskningsradet.no/en/) and from TU Delft (Cohesie program).
 
 <!-- TODO: make the paragraph above a bulleted list? -->
 
