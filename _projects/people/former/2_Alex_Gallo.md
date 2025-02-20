@@ -4,14 +4,14 @@ title: Alex Gallo
 description: Postdoc on cyber attack detection and wind turbine control
 img: /assets/img/people/Alex.jpg
 importance: 2
-category: Postdocs
+category: former
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <u>Period</u>: Feb. 2021 - current
+        <u>Period</u>: Feb. 2021 - 2024
         <br>
         <u>Topics</u>: cyber attack detection, watermarking, secure control, residual life extension for wind turbines.
         <br>

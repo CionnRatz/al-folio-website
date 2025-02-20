@@ -4,7 +4,7 @@ title: AIMWIND
 description: project funded by the Research Council of Norway
 img: /assets/img/projects/offshore_turbine_small.jpg
 importance: -5
-category: funded projects
+category: past projects
 ---
 
 

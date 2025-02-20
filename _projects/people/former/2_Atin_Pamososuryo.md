@@ -4,14 +4,14 @@ title: Atindriyo Pamososuryo
 description: PhD student on wind turbine control
 img: /assets/img/people/Atin.jpg
 importance: 2
-category: PhDs
+category: former
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <u>Period</u>: Jan. 2020 - Dec. 2023 (estimated).
+        <u>Period</u>: Jan. 2020 - 2024.
         <br>
         <u>Topics</u>: wind turbine control, load reduction, Economic MPC.
         <br>

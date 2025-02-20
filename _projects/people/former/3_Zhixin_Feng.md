@@ -4,14 +4,14 @@ title: Zhixin Feng
 description: PhD student on wind turbine control
 img: /assets/img/people/Zhixin.jpg
 importance: 3
-category: PhDs
+category: former
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <u>Period</u>: Feb. 2020 - Jan. 2024 (estimated).
+        <u>Period</u>: Feb. 2020 - 2024.
         <br>
         <u>Topics</u>: wind turbine control, load reduction, Economic MPC, weather forecast modelling for wind turbine control.
         <br>
