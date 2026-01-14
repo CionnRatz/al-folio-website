@@ -5,6 +5,8 @@ description: Postdoc on modelling of stochastic systems
 img: /assets/img/people/Wolfram.jpg
 importance: 3
 category: Postdocs
+name: Luca
+surname: Ballotta
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
@@ -28,7 +30,5 @@ category: Postdocs
 ## Publications
 
 <div class="publications">
-    {% bibliography -f my_papers -q @*[author ~= Martens] %}
+    {% bibliography -f my_papers -q @*[author ~= {{page.name}} && author ~= {{page.surname}}] %}
 </div>
-
-<!-- Find out how to search for complete author name, not just surname -->

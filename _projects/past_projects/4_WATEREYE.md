@@ -32,3 +32,9 @@ WATEREYE aims to develop an integral solution that will allow to WFOs a 4% reduc
 3. develop WT & WF control algorithms with accurate consideration of the structural health, giving operators freedom to choose the best balance between energy production, protective control, and predictive maintenance.
 
 For more information check the [project web site](https://watereye-project.eu){:target="\_blank"} and the [project page on CORDIS](https://cordis.europa.eu/project/id/851207){:target="\_blank"}.
+
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[keywords ~= {{ page.title}}] %}
+</div>

@@ -5,6 +5,8 @@ description: PhD student on system identification
 img: /assets/img/people/Yang.jpg
 importance: 6
 category: PhDs
+name: Yang
+surname: Wang
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
@@ -31,7 +33,5 @@ category: PhDs
 ## Publications
 
 <div class="publications">
-    {% bibliography -f my_papers -q @*[author ~= Wang] %}
+    {% bibliography -f my_papers -q @*[author ~= {{page.name}} && author ~= {{page.surname}}] %}
 </div>
-
-<!-- Find out how to search for complete author name, not just surname -->

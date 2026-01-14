@@ -28,3 +28,9 @@ category: funded projects
 
 Traditional IT security measures fall short for operational technology (OT) systems, which prioritize availability and integrity due to safety and real-time requirements. Preventive security methods like firewalls are insufficient against sophisticated attackers. Therefore, the project employs reactive techniques from fault-tolerant fields and novel methods like watermarking and homomorphic encryption to detect cyber anomalies.
 In collaboration with Delft University of Technology (TUD) and [Batenburg Magion]() (BM), the project will test these techniques in realistic settings, aiming to validate their effectiveness and promote broader adoption. The ultimate goal is to enhance the security of renewable energy assets in the offshore wind industry by establishing a robust second line of defense.
+
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[keywords ~= {{ page.title}}] %}
+</div>

@@ -28,4 +28,9 @@ category: past projects
 
 For more information check the [project web site](https://cordis.europa.eu/project/id/835901){:target="\_blank"} and Dr. Yichao Liu's [research page](https://research.tudelft.nl/en/persons/y-liu-5){:target="\_blank"}.
 
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[keywords ~= {{ page.title}}] %}
+</div>
 

@@ -36,3 +36,9 @@ The project's goals are:
 5. To facilitate testing and adoption of the open-source TWAIN decision support environment for wind power asset management.
 
 For more information check the [project web site](https://twainproject.eu){:target="\_blank"} and the [project page on CORDIS](https://cordis.europa.eu/project/id/101122194){:target="\_blank"}.
+
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[keywords ~= {{ page.title}}] %}
+</div>

@@ -5,6 +5,8 @@ description: Postdoc on cyber attack detection
 img: /assets/img/people/Twan.jpg
 importance: 5
 category: former
+name: Twan
+surname: Keijzer
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
@@ -23,3 +25,9 @@ category: former
 </div>
 
 <!-- NOTE: add projects to everybody, with links to their page -->
+
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[author ~= {{page.name}} && author ~= {{page.surname}}] %}
+</div>

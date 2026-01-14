@@ -37,3 +37,9 @@ The project's goals are:
 4. Enhance (cyber)security to ensure an uninterrupted energy supply, aligning with EU directives and mitigating the impact of physical and cyber threats to less than 10% of baseline values.
 
 For more information check the [project web site](https://sudoco.eu){:target="\_blank"} and the [project page on CORDIS](https://cordis.europa.eu/project/id/101122256){:target="\_blank"}.
+
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[keywords ~= {{ page.title}}] %}
+</div>

@@ -5,6 +5,8 @@ description: PhD student on cyber attack detection
 img: /assets/img/people/Boem.png
 importance: 1
 category: former
+name: Francesca
+surname: Boem
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
@@ -23,7 +25,11 @@ category: former
 </div>
 
 
+## Publications
 
+<div class="publications">
+    {% bibliography -f my_papers -q @*[author ~= {{page.name}} && author ~= {{page.surname}}] %}
+</div>
 
 
 

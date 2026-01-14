@@ -5,6 +5,8 @@ description: PhD student on wind turbine control
 img: /assets/img/people/Zhixin.jpg
 importance: 3
 category: former
+name: Zhixin
+surname: Feng
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
@@ -28,7 +30,5 @@ category: former
 ## Publications
 
 <div class="publications">
-    {% bibliography -f my_papers -q @*[author ~= Zhixin] %}
+    {% bibliography -f my_papers -q @*[author ~= {{page.name}} && author ~= {{page.surname}}] %}
 </div>
-
-<!-- Find out how to search for complete author name, not just surname -->

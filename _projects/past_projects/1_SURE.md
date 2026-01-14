@@ -29,3 +29,8 @@ category: past projects
 For more information check the [project web site](https://cordis.europa.eu/project/id/707546){:target="\_blank"}.
 
 
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[keywords ~= {{ page.title}}] %}
+</div>

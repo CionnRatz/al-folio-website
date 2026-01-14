@@ -3,8 +3,10 @@ layout: page
 title: Jean Gonzalez Silva
 description: PhD student on wind farm control
 img: /assets/img/people/Jean.jpg
-importance: 4
-category: PhDs
+importance: 6
+category: former
+name: Jean
+surname: Gonzalez
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
@@ -15,7 +17,7 @@ category: PhDs
         <br>
         <u>Topics</u>: wind farm control, load equalization, power tracking control.
         <br>
-        <<u>Projects</u>: <a href=" {{ "projects/funded_projects/4_WATEREYE" | relative_url }}">WATEREYE</a>.
+        <u>Projects</u>: <a href=" {{ "projects/funded_projects/4_WATEREYE" | relative_url }}">WATEREYE</a>.
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/people/Jean.jpg' | relative_url }}" alt="" title="example image"/>
@@ -30,7 +32,5 @@ category: PhDs
 ## Publications
 
 <div class="publications">
-    {% bibliography -f my_papers -q @*[author ~= Silva] %}
+    {% bibliography -f my_papers -q @*[author ~= {{page.name}} && author ~= {{page.surname}}] %}
 </div>
-
-<!-- Find out how to search for complete author name, not just surname -->

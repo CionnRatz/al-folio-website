@@ -5,6 +5,8 @@ description: PhD student on cyber security
 img: /assets/img/people/Ivo.jpg
 importance: 7
 category: PhDs
+name: Ivo
+surname: van Straalen
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
@@ -28,7 +30,5 @@ category: PhDs
 ## Publications
 
 <div class="publications">
-    {% bibliography -f my_papers -q @*[author ~= Straalen] %}
+    {% bibliography -f my_papers -q @*[author ~= {{page.name}} && author ~= {{page.surname}}] %}
 </div>
-
-<!-- Find out how to search for complete author name, not just surname -->

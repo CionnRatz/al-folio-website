@@ -5,6 +5,8 @@ description: Postdoc on wind turbine control
 img: /assets/img/people/Yichao.jpg
 importance: 1
 category: former
+name: Yichao
+surname: Liu
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
@@ -29,3 +31,9 @@ category: former
 
 
 <!-- NOTE: add projects to everybody, with links to their page -->
+
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[author ~= {{page.name}} && author ~= {{page.surname}}] %}
+</div>

@@ -30,3 +30,9 @@ An outstanding challenge for PA is the need of large amounts of data to develop,
 
 
 For more information check the [project press release](https://www.tudelft.nl/2021/3me/mei/tu-delft-and-volvo-collaborating-on-prognostics-for-new-generation-of-trucks){:target="\_blank"}.
+
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[keywords ~= {{ page.title}}] %}
+</div>

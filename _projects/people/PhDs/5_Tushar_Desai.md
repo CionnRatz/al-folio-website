@@ -5,6 +5,8 @@ description: PhD student on electro mobility
 img: /assets/img/people/Tushar.jpg
 importance: 5
 category: PhDs
+name: Tushar
+surname: Desai
 ---
 
 <!-- NOTE: make the profile picture appear here as in my about page (copy the code for floating image) -->
@@ -30,7 +32,5 @@ category: PhDs
 ## Publications
 
 <div class="publications">
-    {% bibliography -f my_papers -q @*[author ~= Desai] %}
+    {% bibliography -f my_papers -q @*[author ~= {{page.name}} && author ~= {{page.surname}}] %}
 </div>
-
-<!-- Find out how to search for complete author name, not just surname -->

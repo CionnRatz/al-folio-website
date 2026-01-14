@@ -34,3 +34,9 @@ The project AIMWind will take a three-pronged approach.
 Thus, AIMWind plans to build the essential knowledge to reliable and efficient wind farm operation and improved chances for lifetime extension and repowering.
 
 For more information check the [project web site](https://www.aimwind.no){:target="\_blank"} and the [project page at the Research Council of Norway](https://prosjektbanken.forskningsradet.no/en/project/FORISS/312486){:target="\_blank"}.
+
+## Publications
+
+<div class="publications">
+    {% bibliography -f my_papers -q @*[keywords ~= {{ page.title}}] %}
+</div>
